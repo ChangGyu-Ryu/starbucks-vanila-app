@@ -19,8 +19,7 @@ searchInputEl.addEventListener('blur', function() {
 const badgeEl = document.querySelector('header .badges');
 
 window.addEventListener('scroll', _.throttle(function() {
-  console.log(window.scrollY);
-  if (window.scrollY > 500) {
+   if (window.scrollY > 500) {
     // 배치 숨기기 
     // gsap.to(요소, 지속시간, 옵션);
     gsap.to(badgeEl, .6, {
@@ -72,4 +71,21 @@ new Swiper('.promotion .swiper-container', {
     nextEl: '.promotion .swiper-next'
   }
 
+});
+
+const promotionEl = document.querySelector('.promotion');
+const promotionToggleBtn = document.querySelector('.toggle-promotion');
+let isHidePromotion = false;
+
+promotionToggleBtn.addEventListener('click', function() {
+  isHidePromotion = !isHidePromotion
+  if (isHidePromotion) {
+    // 숨김 처리!
+    promotionEl.classList.add('hide');
+
+  } else {
+    // 보임 처리!
+    promotionEl.classList.remove('hide');
+
+  }
 });
