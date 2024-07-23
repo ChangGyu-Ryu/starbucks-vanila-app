@@ -1,7 +1,15 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/spiffy-jalebi-958ea7/deploys)
+
 # ☕ STARBUCKS
 
-스타벅스 랜딩 페이지(홈페이지)를 만들어봅니다. <br>
+스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다. <br>
 꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
+
+[main(master) 브랜치로 이동](https://github.com/ChangGyu-Ryu/starbucks-vanilla-app) <br/>
+
+[DEMO](https://spiffy-jalebi-958ea7.netlify.app/) <br/>
+
+![Starbucks](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/_assets/main_screenshot.jpg)
 
 ## 문자 인코딩(Character Encoding) 설정
 
@@ -29,6 +37,35 @@
 - `maximum-scale=1`: 사용자가 화면을 확대할 수 있는 최댓값
 - `minimum-scale=1`: 사용자가 화면을 축소할 수 있는 최솟값
 
+## 오픈 그래프(The Open Graph protocol)
+
+웹페이지가 소셜 미디어(페이스북 등)로 공유될 때 우선적으로 활용되는 정보를 지정합니다.
+
+Slack -
+
+![Slack Open Graph example](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/_assets/slack_message_og_example.jpg)
+
+KakaoTalk -
+
+![KakaoTalk Open Graph example](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/_assets/kakao_og_example.jpg)
+
+[더 많은 오픈 그래프 속성 보기](https://ogp.me/)
+
+```html
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Starbucks" />
+<meta property="og:title" content="Starbucks Coffee Korea" />
+<meta property="og:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+<meta property="og:image" content="./images/starbucks_seo.jpg" />
+<meta property="og:url" content="https://starbucks.co.kr" />
+```
+
+- `og:type`: 페이지의 유형(E.g, `website`, `video.movie`)
+- `og:site_name`: 속한 사이트의 이름
+- `og:title`: 페이지의 이름(제목)
+- `og:description`: 페이지의 간단한 설명
+- `og:image`: 페이지의 대표 이미지 주소(URL)
+- `og:url`: 페이지 주소(URL)
 
 ## 트위터 카드(Twitter Cards)
 
@@ -82,7 +119,7 @@
 각 브라우저의 기본 스타일을 초기화합니다.
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
 ```
 
 ## Google Fonts
@@ -156,6 +193,7 @@ gsap.to(window, .7, {
 [Getting Started With Swiper](https://swiperjs.com/get-started)
 
 > [2021.08.26 Updated]<br>
+> 강의와 같이 Swiper 6버전을 사용합니다.<br>
 > 7/8버전의 사용법이 다르기 때문에 6버전을 유지합니다.
 
 ```html
