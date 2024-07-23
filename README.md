@@ -5,11 +5,11 @@
 스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다. <br>
 꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
 
-[main(master) 브랜치로 이동](https://github.com/ChangGyu-Ryu/starbucks-vanilla-app) <br/>
+[main(master) 브랜치로 이동](https://github.com/ChangGyu-Ryu/starbucks-vanila-app) <br/>
 
 [DEMO](https://spiffy-jalebi-958ea7.netlify.app/) <br/>
 
-![Starbucks](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/_assets/main_screenshot.jpg)
+![Starbucks](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanila-app/master/_assets/main_screenshot.jpg)
 
 ## 문자 인코딩(Character Encoding) 설정
 
@@ -43,11 +43,11 @@
 
 Slack -
 
-![Slack Open Graph example](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/_assets/slack_message_og_example.jpg)
+![Slack Open Graph example](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanila-app/master/_assets/slack_message_og_example.jpg)
 
 KakaoTalk -
 
-![KakaoTalk Open Graph example](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/_assets/kakao_og_example.jpg)
+![KakaoTalk Open Graph example](https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanila-app/master/_assets/kakao_og_example.jpg)
 
 [더 많은 오픈 그래프 속성 보기](https://ogp.me/)
 
@@ -105,8 +105,8 @@ KakaoTalk -
 - `favicon.ico` 64 x 64 (px) 또는 32 x 32 또는 16 x 16
 - `favicon.png` 500 x 500 (px)
 
-<img src="https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/favicon.png" alt="Starbucks" width="16" />
-<img src="https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanilla-app/master/favicon.png" alt="Starbucks" width="200" />
+<img src="https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanila-app/master/favicon.png" alt="Starbucks" width="16" />
+<img src="https://raw.githubusercontent.com/ChangGyu-Ryu/starbucks-vanila-app/master/favicon.png" alt="Starbucks" width="200" />
 
 ### .ico 파일 제작
 
